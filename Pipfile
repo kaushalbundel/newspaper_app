@@ -7,6 +7,7 @@ name = "pypi"
 django = "*"
 pyright = "*"
 isort = "*"
+black = "*"
 
 [dev-packages]
 
