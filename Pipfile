@@ -8,6 +8,8 @@ django = "*"
 pyright = "*"
 isort = "*"
 black = "*"
+django-crispy-forms = "*"
+crispy-bootstrap4 = "*"
 
 [dev-packages]
 

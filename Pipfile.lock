@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e4631efcc813e6a88682916da9c1898f5c6175d5356ae2e0c1725ad304aa9c31"
+            "sha256": "4187e7aac5276dccc8d54e423fd0f3ef5497dd4b8f3db37570940c78932b843d"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -61,6 +61,15 @@
             "markers": "python_version >= '3.7'",
             "version": "==8.1.7"
         },
+        "crispy-bootstrap4": {
+            "hashes": [
+                "sha256:208673bf6a25892a656971af7a00e18ba2f7f06cd4a0d667923bd6134e64d276",
+                "sha256:46cf98777a28621d240bf71eb36d4a26ff86e9e19be1cfd822645f4043d18c31"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==2024.1"
+        },
         "django": {
             "hashes": [
                 "sha256:8363ac062bb4ef7c3f12d078f6fa5d154031d129a15170a1066412af49d30905",
@@ -69,6 +78,15 @@
             "index": "pypi",
             "markers": "python_version >= '3.10'",
             "version": "==5.0.6"
+        },
+        "django-crispy-forms": {
+            "hashes": [
+                "sha256:92cb7b7786fb82646bad739343fd17a99a04b0b736a09e34f3b91f26cbca7e4a",
+                "sha256:a681cffd5af270b3082bda02cf8f81bdb5717ed66d2265e87e3df2f4ccf46277"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==2.2"
         },
         "isort": {
             "hashes": [
@@ -121,12 +139,12 @@
         },
         "pyright": {
             "hashes": [
-                "sha256:06d5167a8d7be62523ced0265c5d2f1e022e110caf57a25d92f50fb2d07bcda0",
-                "sha256:ad290710072d021e213b98cc7a2f90ae3a48609ef5b978f749346d1a47eb9af8"
+                "sha256:d0d559d506fc41e3297f721aaa05a1b9f06beda5acc9ac64ca371ce94c28f960",
+                "sha256:fc721601e480a69989775bfc210534a6ca0110ebd0c065244a8d3a151294fc61"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.7'",
-            "version": "==1.1.369"
+            "version": "==1.1.370"
         },
         "sqlparse": {
             "hashes": [

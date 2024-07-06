@@ -38,8 +38,12 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    # user apps
     "users.apps.UsersConfig",
     "pages.apps.PagesConfig",
+    # 3rd party apps
+    "crispy_forms",
+    "crispy_bootstrap4",
 ]
 
 MIDDLEWARE = [
@@ -129,3 +133,6 @@ AUTH_USER_MODEL = "users.CustomUser"  # This is to communicate to Django that we
 
 LOGIN_REDIRECT_URL = "home"  # These are the url names that the user will be redirected after successful login/logout
 LOGOUT_REDIRECT_URL = "home"
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+CRISPY_TEMPLATE_PACK = "bootstrap4"
