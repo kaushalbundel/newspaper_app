@@ -26,4 +26,5 @@ urlpatterns = [
         "users/", include("django.contrib.auth.urls")
     ),  # for using built-in login logout functionality
     path("", include("pages.urls")),  # for pages app
+    path("articles/", include("articles.urls")),  # for articles app
 ]

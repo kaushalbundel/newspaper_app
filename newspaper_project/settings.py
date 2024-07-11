@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # user apps
     "users.apps.UsersConfig",
     "pages.apps.PagesConfig",
+    "articles.apps.ArticlesConfig",
     # 3rd party apps
     "crispy_forms",
     "crispy_bootstrap4",
