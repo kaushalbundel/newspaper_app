@@ -10,6 +10,7 @@ isort = "*"
 black = "*"
 django-crispy-forms = "*"
 crispy-bootstrap4 = "*"
+djlint = "*"
 
 [dev-packages]
 

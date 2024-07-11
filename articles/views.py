@@ -1,5 +1,11 @@
 from django.shortcuts import render
-from django.views.generic import ListView, DetailView, DeleteView, UpdateView
+from django.views.generic import (
+    ListView,
+    DetailView,
+    DeleteView,
+    UpdateView,
+    CreateView,
+)
 from .models import Article
 from django.urls import reverse_lazy
 
@@ -28,3 +34,9 @@ class ArticleUpdateView(UpdateView):
     model = Article
     template_name = "article_edit.html"
     fields = ["title", "body"]
+
+
+class ArticleCreateView(CreateView):
+    model = Article
+    template_name = "article_new.html"
+    fields = ["title", "body", "author"]
